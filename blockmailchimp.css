@@ -1,0 +1,9 @@
+#blockmailchimp .button {
+	width: 100%;
+}
+#blockmailchimp .block_content {
+	padding-top: 10px;
+}
+#blockmailchimp .alert {
+	display: none;
+}

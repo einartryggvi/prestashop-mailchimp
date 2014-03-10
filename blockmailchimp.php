@@ -87,7 +87,7 @@ class Blockmailchimp extends Module
 		$email = $params['newCustomer']->email;
 		$newsletter = $params['newCustomer']->newsletter;
 		if ($newsletter && Validate::isEmail($email)) {
-			// TODO: Subscribe user.
+			$this->subscribeEmail($email);
 		}
 		return true;
 	}
